@@ -111,12 +111,9 @@ try {
   execSync("git init", { stdio: "inherit" });
 
   console.log(`Creating GitHub repository ${domainName}...`);
-  execSync(
-    `gh repo create ${domainName} --private --source=. --license "cc-by-nc-4.0"`,
-    {
-      stdio: "inherit",
-    }
-  );
+  execSync(`gh repo create ${domainName} --private --source=.`, {
+    stdio: "inherit",
+  });
 
   console.log("Adding files to the Git repository...");
   execSync("git add .", { stdio: "inherit" });
@@ -133,7 +130,7 @@ try {
 
   // Launch Fly.io app
   console.log("Launching Fly.io app...");
-  execSync("flyctl launch", { stdio: "inherit" });
+  execSync("flyctl launch -Y", { stdio: "inherit" });
 } catch (error) {
   console.error("An error occurred during the process:", error);
 }

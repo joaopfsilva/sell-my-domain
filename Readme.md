@@ -20,6 +20,14 @@ To use this project, ensure you have the following installed on your machine:
 - **GitHub CLI (`gh`)**
 - **Fly.io CLI (`flyctl`)**
 
+## Limitations
+
+- This fails if you already have a github repository with the same name
+
+## Contributions
+
+This project may contain bugs and limitations, which are most than welcome to be fixed. It's inteded to be a project where anyone is welcome to contribute, learn and share knowledge.
+
 ## Support
 
 If you find this project helpful and want to support its development, you can buy me a coffee! ☕
