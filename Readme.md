@@ -20,6 +20,12 @@ To use this project, ensure you have the following installed on your machine:
 - **GitHub CLI (`gh`)**
 - **Fly.io CLI (`flyctl`)**
 
+## Output
+
+- express app (ready-to-use) under /output/${domain_name} (just need to run yarn start fore the first time)
+- private github repository created on your account
+- new fly.io application created with 256MB and 1x CPU (the minimum possible requirement)
+
 ## Limitations
 
 - This fails if you already have a github repository with the same name
