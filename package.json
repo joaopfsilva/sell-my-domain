@@ -8,6 +8,7 @@
     "readline-sync": "^1.4.10"
   },
   "scripts": {
-    "start": "node generate.js"
+    "launch-domain": "node launch-domain.js",
+    "delete-domain": "node destroy-domain.js"
   }
 }

@@ -130,7 +130,7 @@ try {
 
   // Launch Fly.io app
   console.log("Launching Fly.io app...");
-  execSync("flyctl launch -Y", { stdio: "inherit" });
+  execSync("flyctl launch --yes", { stdio: "inherit" });
 } catch (error) {
   console.error("An error occurred during the process:", error);
 }
