@@ -20,7 +20,7 @@ If you want to run it locally, you can do:
 ```
 cd output/<domain-name>
 yarn install
-yarn start
+yarn launch-domain
 open browser and visit http://localhost:3000
 ```
 
