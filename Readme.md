@@ -20,6 +20,8 @@ To use this project, ensure you have the following installed on your machine:
 - **GitHub CLI (`gh`)**
 - **Fly.io CLI (`flyctl`)**
 
-### Support
+## Support
 
-buymeacoffee.com/codeandwaves
+If you find this project helpful and want to support its development, you can buy me a coffee! ☕
+
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/codeandwaves)
