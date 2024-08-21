@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interested in purchasing ${domain_name_here}? Contact us for more information on acquiring this premium domain."
+    />
+    <title>Buy ${domain_name_here} - Premium Domain for Sale</title>
+
+    <meta
+      property="og:title"
+      content="Buy ${domain_name_here} - Premium Domain for Sale"
+    />
+    <meta
+      property="og:description"
+      content="Interested in purchasing ${domain_name_here}? Contact us now!"
+    />
+    <meta property="og:url" content="https://${domain_name_here}" />
+    <meta
+      property="og:image"
+      content="https://${domain_name_here}/image.webp"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Buy ${domain_name_here}" />
+    <meta
+      name="twitter:description"
+      content="This premium domain is available for sale. Get in touch now."
+    />
+    <meta
+      name="twitter:image"
+      content="https://${domain_name_here}/image.webp"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "${domain_name_here}",
+        "description": "Premium domain name for sale.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "EUR",
+          "price": "Contact for price",
+          "url": "https://${domain_name_here}"
+        }
+      }
+    </script>
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Do you want to buy this domain?</h1>
+      </header>
+
+      <main>
+        <img
+          src="/images/image.webp"
+          alt="Web Summit Domain Image"
+          class="main-image"
+        />
+        <p>
+          Contact me here:
+          <a href="mailto:${email_address_here}">Email</a>
+        </p>
+      </main>
+
+      <footer>&copy; <span id="year"></span>${domain_name_here}</footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

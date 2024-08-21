@@ -1,0 +1,17 @@
+{
+  "name": "${domain_name_here}",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "redeploy": "flyctl deploy"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.8",
+    "nodemon": "^2.0.7"
+  }
+}

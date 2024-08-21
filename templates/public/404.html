@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="404 Page Not Found">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Oops! Page Not Found</h1>
+        </header>
+
+        <main>
+            <p>Sorry, the page you're looking for doesn't exist.</p>
+            <p><a href="/">Go back to the homepage</a></p>
+        </main>
+
+        <footer>
+            &copy; <span id="year"></span> Code and Waves
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
