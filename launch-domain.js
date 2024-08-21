@@ -115,6 +115,10 @@ try {
     stdio: "inherit",
   });
 
+  // Launch Fly.io app
+  console.log("Launching Fly.io app...");
+  execSync("flyctl launch --yes", { stdio: "inherit" });
+
   console.log("Adding files to the Git repository...");
   execSync("git add .", { stdio: "inherit" });
 
@@ -127,10 +131,6 @@ try {
 
   console.log("Pushing files to GitHub...");
   execSync("git push origin main", { stdio: "inherit" });
-
-  // Launch Fly.io app
-  console.log("Launching Fly.io app...");
-  execSync("flyctl launch --yes", { stdio: "inherit" });
 } catch (error) {
   console.error("An error occurred during the process:", error);
 }
